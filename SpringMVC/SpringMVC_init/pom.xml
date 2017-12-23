@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myz</groupId>
-  <artifactId>myspringmvc</artifactId>
+  <artifactId>springmvc</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>myspringmvc Maven Webapp</name>
+  <name>springmvc Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -15,6 +15,8 @@
       <scope>test</scope>
     </dependency>
 
+
+    <!-- Spring依赖 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
@@ -26,8 +28,10 @@
       <artifactId>spring-webmvc</artifactId>
       <version>4.3.13.RELEASE</version>
     </dependency>
+    <!-- Spring依赖 end -->
+
   </dependencies>
   <build>
-    <finalName>myspringmvc</finalName>
+    <finalName>springmvc</finalName>
   </build>
 </project>
